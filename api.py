@@ -4,7 +4,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-@app.route('/', methods = ['GET'])
+@app.route('/api', methods = ['GET'])
     
 
 def interpreter():
